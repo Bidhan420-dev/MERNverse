@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import courseData from "../data/courseData";
+import courseData from "../data/courseData.js";
 
 // ─── LEARN MORE MODAL ────────────────────────────────────────────────────────
 function LearnMoreModal({ course, onClose }) {
