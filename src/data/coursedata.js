@@ -1,17 +1,17 @@
-// import html from "./foundation/html.js";
-// import css from "./foundation/css.js";
-// import javascript from "./foundation/javascript.js";
-// import github from "./foundation/github.js";
+import html from "./foundation/html.js";
+import css from "./foundation/css.js";
+import javascript from "./foundation/javascript.js";
+import github from "./foundation/github.js";
 
-// import tailwind from "./frontend/tailwind.js";
-// import react from "./frontend/react.js";
-// import hooks from "./frontend/hooks.js";
-// import router from "./frontend/router.js";
+import tailwind from "./frontend/tailwind.js";
+import react from "./frontend/react.js";
+import hooks from "./frontend/hooks.js";
+import router from "./frontend/router.js";
 
-// import express from "./backend/express.js";
-// import jwt from "./backend/jwt.js";
-// import node from "./backend/node.js";
-// import middleware from "./backend/middleware.js";
+import express from "./backend/express.js";
+import jwt from "./backend/jwt.js";
+import node from "./backend/node.js";
+import middleware from "./backend/middleware.js";
 
 const courseData = [
   {
