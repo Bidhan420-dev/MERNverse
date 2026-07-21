@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
-import courseData from "../data/courseData";
+import courseData from "../data/coursedata.js";
+//fixed src 
 
 // ─── CODE BLOCK ──────────────────────────────────────────────────────────────
 function CodeBlock({ code }) {
@@ -11,6 +12,8 @@ function CodeBlock({ code }) {
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
+
+
 
   return (
     <div className="relative mt-6 rounded-xl overflow-hidden border border-white/10">
