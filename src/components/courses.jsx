@@ -5,7 +5,7 @@ import courseData from "../data/courseData";
 // ─── LEARN MORE MODAL ────────────────────────────────────────────────────────
 function LearnMoreModal({ course, onClose }) {
   if (!course) return null;
-
+//this is cousse 
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm"
