@@ -13,6 +13,11 @@ import jwt from "./backend/jwt.js";
 import node from "./backend/node.js";
 import middleware from "./backend/middleware.js";
 
+import crud from "./database/crud.js";
+import mongodb from "./database/mongodb.js";
+import mongoose from "./database/mongoose.js";
+import relationships from "./database/relationships.js";
+
 const courseData = [
   {
     id: "foundation",
@@ -97,7 +102,39 @@ const courseData = [
   prerequisites:
     "JavaScript Fundamentals and Basic React Knowledge"
 }
-  }
-];
+  },
+    {
+  id: "database",
+  title: "Database Management",
+  desc: "Learn MongoDB, Mongoose, CRUD Operations, and Database Relationships.",
+  chapters: [mongodb, mongoose, crud, relationships],
 
+  learnMore: {
+    summary:
+      "Learn how modern applications store, retrieve, and manage data using MongoDB and Mongoose. This module covers database design, CRUD operations, relationships between collections, data validation, and best practices for building scalable applications.",
+
+    whatYouLearn: [
+      "Introduction to Databases",
+      "MongoDB Fundamentals",
+      "MongoDB Collections and Documents",
+      "CRUD Operations (Create, Read, Update, Delete)",
+      "Mongoose ODM",
+      "Schema Design and Validation",
+      "Database Relationships",
+      "One-to-One Relationships",
+      "One-to-Many Relationships",
+      "Many-to-Many Relationships",
+      "Querying and Filtering Data",
+      "Aggregation and Data Processing",
+      "Database Optimization Techniques",
+      "Real-world Database Integration"
+    ],
+
+    duration: "5 Weeks",
+    level: "Intermediate",
+    prerequisites:
+      "Basic JavaScript Knowledge and Understanding of Backend Fundamentals"
+  }
+}
+]
 export default courseData;
